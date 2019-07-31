@@ -1,3 +1,78 @@
-p{
+body{
+    max-width: 90%;
+    margin: auto;
+    background-image: linear-gradient(to right, #99BBDB , #3A13AA);
+}
+header>h1{
+    background-color: yellow;
+}
+
+p {
     font-family: sans-serif;
+    letter-spacing: 1px;
+    color: dimgrey;
+}
+
+
+p.first{
+    text-transform: uppercase;
+}
+blockquote{
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+q{
+    display: inline-block;
+    background: lightgrey;
+    border-left-style: solid;
+    border-width: 3px;
+    padding: 30px;
+    font-size: 160%;
+    font-style: italic;
+}
+.qvil{
+    border-left-color: red;
+}
+.qfar{
+    border-left-color: #4CAF50;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+p.koppig{
+    text-transform: capitalize;
+    color: #4CAF50;
+}
+p.koppig2{
+    text-transform: capitalize;
+    color: red;
+}
+.good{
+    color: #4CAF50;
+}
+.bad{
+    color: red;
+}
+table tr:nth-child(even){
+background-color: lightgrey;
+}
+.conf{
+    position: fixed;
+    padding:.5rem 1rem;
 }
