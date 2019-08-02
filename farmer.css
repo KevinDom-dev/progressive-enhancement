@@ -2,6 +2,9 @@ body{
     max-width: 90%;
     margin: auto;
     background-image: linear-gradient(to right, #99BBDB , #3A13AA);
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 header>h1{
     background-color: yellow;
@@ -9,8 +12,8 @@ header>h1{
 
 p {
     font-family: sans-serif;
-    letter-spacing: 1px;
     color: dimgrey;
+    letter-spacing: 1px;
 }
 
 
@@ -55,11 +58,11 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
-p.koppig{
+q.koppig{
     text-transform: capitalize;
     color: #4CAF50;
 }
-p.koppig2{
+q.koppig2{
     text-transform: capitalize;
     color: red;
 }
@@ -72,7 +75,13 @@ p.koppig2{
 table tr:nth-child(even){
 background-color: lightgrey;
 }
-.conf{
+
+.pop{
     position: fixed;
-    padding:.5rem 1rem;
+    bottom: 5px;
+    right: 5px;
+    margin:10px;
+}
+.pop img{
+    width: 150px;
 }
