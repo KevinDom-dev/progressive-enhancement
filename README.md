@@ -1,1 +1,1 @@
-kevindom-dev.github.io/progressive-enhancement/
+kevindom-dev.github.io/progressive-enhancement/farmer.html
