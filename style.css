@@ -85,6 +85,6 @@ background-color: lightgrey;
 .pop img{
     width: 150px;
 }
-ul{
+ul, li{
     list-style-type: none
 }
